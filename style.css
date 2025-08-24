@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+h1 {
+    background-color: rgb(118, 72, 12);
+    color: bisque;
+    height: 5rem;
+    text-align: center;
+    /* vertically align */
+    line-height: 5rem;
+    font-size: 3rem;
+
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+
+
+    
+
+}
+.choice {
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+
+}
+.choice:hover {
+    background-color: rgb(118, 72, 12);
+
+}
+.choices {
+    display: flex; /*  kiuki ye ek hi div mai hai isiliye horizontaly align ho gai hai */
+    align-items: center;
+    justify-content: center;
+    gap: 4rem
+    ;
+    margin-top: 6rem;
+    
+
+    
+
+}
+
+/* score bar */
+.score-board {
+    display: flex;
+    justify-content: center;
+    margin-top : 4rem;
+    gap: 4rem;
+
+
+
+}
+
+#user-score, #comp-score {
+    font-size: 40px;
+
+    
+
+}
+/* massge container */
+.msg-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    align-items: center;
+
+}
+#msg {
+    background-color:  rgb(118, 72, 12);
+    color : white;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+
+}
+
+
+
+
